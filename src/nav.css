@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.bar
+{
+    padding: 5px 5px;
+    width: 100%;
+    background: #021b02;
+    display: flex;
+}
+.bar .free
+{
+    padding: 10px 10px;
+    width: 100%;
+    background: #021b02;
+    display: flex;
+}
+/* .free .icon
+{    
+    color: #f3b123;
+    font-size: 22px;
+} */
+.bar .free h4
+{
+    margin-left: 10px;
+    color: #f6f9f9;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.bar .free h5
+{
+    margin-left: 30px;
+    color: #f6f9f9;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.main_header
+{
+    padding: 10px 20px;
+    width: 100%;
+    border-bottom: 1px solid #010f1c;
+    /* background: #ecf2f7; */
+    /* background-image: url('.public\img\2.png'); */
+}
+.main_header .container
+{
+    display: flex;
+}
+.main_header .container .logo
+{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.main_header .container .search_box
+{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.main_header .container .search_box input
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #06703d;
+    border-radius: 10px;
+    width: 300px;
+    color: #010f1c;
+}
+.main_header .container .search_box button
+{
+    border: 3px solid #117b0b;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 2px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    /* font-weight: 200; */
+    cursor: pointer;
+    background: #117b0b;
+    color: #ecf2f7;
+}
+.main_header .container .search_box button:hover
+{
+    color: #f09b1c;
+}
+.main_header .container .icon
+{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.main_header .container .icon .account 
+{
+  display: flex;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.main_header .container .icon .account .user_icon
+{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #117b0b;
+    cursor: pointer;
+}
+.main_header .container .icon .account p
+{
+    margin-right: 5px;
+    margin-top: 2px;
+    font-weight: 600;
+    color: #117b0b;
+}
+.main_header .container .icon .second_icon
+{
+    margin-left: 140px;
+    display: flex;
+}
+.main_header .container .icon .second_icon .link
+{
+    padding: 2px 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #117b0b;
+}
+.main_header .container .icon .second_icon .link:hover
+{
+    color: #f09b1c;
+}
+.header
+{
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header .container
+{
+    margin-top: 5px;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between
+}
+.header .container .nav ul
+{
+    display: flex;
+}
+.header .container .nav ul li
+{
+    margin-left: 20px;
+    list-style: none;
+}
+.header .container .nav ul li .link
+{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header .container .nav ul li .link:hover
+{
+    color: #f09b1c;
+}
+.header .container .auth
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.header .container .auth button
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+.header .container .auth button:hover
+{
+    color: #f09b1c;
+}
