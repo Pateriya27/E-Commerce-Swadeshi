@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.wishlistcontainer
+{
+    padding: 40px 50px;
+    width: 100%;
+    background: #f1f1f1;
+    border-bottom: 1px solid #9a9a9a;
+}
+.wishlistcontainer .emptywishlist
+{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.wishlistcontainer .emptywishlist h2
+{
+    font-size: 32px;
+    color: #010f1c;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.wishlistcontainer .emptywishlist .emptywishlistbtn
+{
+    margin-left: 70px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: #010f1c;
+}
+.wishlistcontainer .contant
+{
+    max-width: 100%;
+    padding: 20px 30px;
+}
+.wishlistcontainer .contant .wishlist_item
+{
+    padding: 20px 30px;
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wishlistcontainer .contant .wishlist_item .img_box
+{
+    padding: 20px 20px;
+    background: #f1f1f1;
+}
+.wishlistcontainer .contant .wishlist_item .img_box img
+{
+    width: 250px;
+    height: 300px;   
+}
+.wishlistcontainer .contant .wishlist_item .detail
+{
+    margin-left: 60px;
+    display:flex;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+.wishlistcontainer .contant .wishlist_item .detail .info h4
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #9a9a9a;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.wishlistcontainer .contant .wishlist_item .detail .info h3
+{
+    margin-top: 20px;
+    color: #010f1c;
+    font-size: 22px;
+    font-weight: 200;
+}
+.wishlistcontainer .contant .wishlist_item .detail .info p
+{
+    margin-top: 10px;
+    color: #010f1c;
+    letter-spacing: 1px;
+}
+.wishlistcontainer .contant .wishlist_item .detail .close
+{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.wishlistcontainer .contant .wishlist_item .detail .close button
+{
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #db0045;
+    background: none;
+    cursor: pointer;
+}
+.wishlistcontainer .addtocart
+{
+    margin-top: 40px;
+    margin-left: 52%;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #0989ff;
+    cursor: pointer;
+}
